@@ -21,9 +21,20 @@ const Footer = () => {
             <div className="footer-social-icon">
                 <div className="footer-icons-container">
                     <FaInstagram />
+                </div>
+
+                <div className="footer-icons-container">
                     <FaPinterest />
+                </div>
+
+                <div className="footer-icons-container">
                     <FaWhatsapp />
                 </div>
+            </div>
+
+            <div className="footer-copyright">
+                <hr />
+                <p>Copyright @ 2023 - All Right Reserved.</p>
             </div>
         </div>
     )
