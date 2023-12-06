@@ -12,9 +12,9 @@ const NewCollections = () => {
 
             <div className="collections">
                 {
-                    new_collections.map((item, index) => {
+                    new_collections.map((item, i) => {
                         return (
-                            <Item key={item.id} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />
+                            <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />
                         )
                     })
                 }
