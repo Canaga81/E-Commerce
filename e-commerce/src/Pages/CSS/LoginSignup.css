@@ -32,7 +32,7 @@
     padding-left: 20px;
     border: 1px solid #c9c9c9;
     outline: none;
-    color: #c5c5c5;
+    color: #867a7a;
     font-size: 16px;
 }
 
@@ -54,4 +54,24 @@
 
 .loginsignup-container button:hover {
     opacity: 0.75;
+}
+
+.loginsignup-login {
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.loginsignup-login span {
+    color: #ff4141;
+}
+
+.loginsignup-login .loginsignup-agree {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.loginsignup-login .loginsignup-agree p {
+    font-size: 15px;
 }
