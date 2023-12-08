@@ -12,18 +12,20 @@ const CartItems = () => {
         <div className='cartitems'>
 
             <div className="cartitems-format-main">
+
                 <p>Products</p>
                 <p>Title</p>
                 <p>Price</p>
                 <p>Quantity</p>
                 <p>Total</p>
                 <p>Remove</p>
+
             </div>
 
             <hr />
             {
                 all_product.map((e, i) => {
-                    if (cartItems[e.id]>0) {
+                    if (cartItems[e.id] > 0) {
                         return (
                             <div key={i}>
                                 <div className="cartitems-format">
@@ -41,9 +43,8 @@ const CartItems = () => {
                 })
             }
 
-
-
         </div>
+
     )
 
 }
