@@ -8,10 +8,11 @@ import all_product from '../Components/Assets/all_product'
 
 const ShopCategory = (props) => {
 
-  // const {all_product} = useContext(ShopContext)
+  // const { all_product } = useContext(ShopContext)
+  // console.log(all_product);
 
   return (
-    
+
     <div className="shop-category">
       <img className='shop-img' src={props.banner} alt="shop_image" />
 
@@ -33,7 +34,7 @@ const ShopCategory = (props) => {
               )
             }
             else {
-              return null
+              return null;
             }
           })
         }
